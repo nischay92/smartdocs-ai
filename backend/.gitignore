@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+*.js.map
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+.DS_Store
+
+# Testing
+coverage/
+
+# Temporary files
+*.tmp
+.cache/
+uploads/*
+!uploads/.gitkeep
+
+# Azure Functions
+local.settings.json
+
+# OS files
+Thumbs.db
